@@ -8,9 +8,18 @@ table{
     border: 2px solid black;
     border-collapse: collapse;
 }
-tr, th, td{
-    border: 1px solid gray
+#cell2, #cell1{
+    border: none;
 }
+#cell1{
+    border-right: 1px solid gray
+}
+tr, th, td{
+    border: 1px solid gray;
+    border-collapse:collapse
+}
+
 td{
     text-align: center;
 }
+
