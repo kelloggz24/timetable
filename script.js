@@ -1,3 +1,6 @@
 function NSI(){
-    index.getElementByClassName("NSI").style.backgroundColor="red"
+    var element = index.getElementByClassName("NSI")
+    for(let i=0;i<element.length;i++){
+        element[i].style.backgroundColor="red"
+    }
 }
