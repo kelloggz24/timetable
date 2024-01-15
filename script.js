@@ -1,3 +1,3 @@
 function NSI(){
-    index.getElementByClassName("NSI").style.color="red"
+    index.getElementByClassName("NSI").style.backgroundColor="red"
 }
