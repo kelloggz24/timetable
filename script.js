@@ -5,14 +5,14 @@ function NSI(){
     }
 }
 function Maths(){
-    var element = document.getElementsByClassName("");
+    var element = document.getElementsByClassName("Maths");
     for(let i=0; i < element.length; i++){
         element[i].bgColor="#ee7d7d";
     }
 }
 
 function PC(){
-    var element = document.getElementsByClassName("NSI");
+    var element = document.getElementsByClassName("PC");
     for(let i=0; i < element.length; i++){
         element[i].bgColor="#db9ced";
     }
