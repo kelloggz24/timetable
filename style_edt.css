@@ -7,6 +7,7 @@ h1{
 table{
     border: 2px solid black;
     border-collapse: collapse;
+    background-color: aqua;
 }
 #cell2, #cell1{
     border: none;
@@ -17,7 +18,6 @@ table{
 tr, th, td{
     border: 1px solid gray;
     border-collapse:collapse;
-    background-color: solid #b8c8d1;
 }
 
 td{
