@@ -9,12 +9,7 @@ table{
     border-collapse: collapse;
     background-color: #ddf5ef;
 }
-#cell2, #cell1{
-    border: none;
-}
-#cell1{
-    border-right: 1px solid gray
-}
+
 tr, th, td{
     border: 1px solid gray;
     border-collapse:collapse;
@@ -24,3 +19,9 @@ td{
     text-align: center;
 }
 
+#cell2, #cell1{
+    border: none;
+}
+#cell1{
+    border-right: 1px solid gray
+}
