@@ -5,7 +5,7 @@ function NSI(){
     }
 }
 function Maths(){
-    var element = document.getElementsByClassName("NSI");
+    var element = document.getElementsByClassName("");
     for(let i=0; i < element.length; i++){
         element[i].bgColor="#ee7d7d";
     }
