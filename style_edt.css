@@ -17,6 +17,7 @@ table{
 tr, th, td{
     border: 1px solid gray;
     border-collapse:collapse;
+    background-color: solid #b8c8d1;
 }
 
 td{
