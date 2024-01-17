@@ -7,7 +7,7 @@ h1{
 table{
     border: 2px solid black;
     border-collapse: collapse;
-    background-color: aqua;
+    background-color: #ddf5ef;
 }
 #cell2, #cell1{
     border: none;
