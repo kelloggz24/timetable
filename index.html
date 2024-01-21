@@ -7,12 +7,12 @@
 </head>
 <body>
   <h1>Emploi du temps</h1>
-  <button onclick="NSI()">NSI</button>
-  <button onclick="Maths()">Maths</button>
-  <button onclick="PC()">Physique-Chimie</button>
+  <button onclick="highlight('NSI')">NSI</button>
+  <button onclick="highlight('Maths')">Maths</button>
+  <button onclick="highlight('PC')">Physique-Chimie</button>
 <table id="table_1" style="width: 100%;">
 <tr>
-  <td style="width:10%" >&nbsp;</td>
+  <th style="width:10%" >Heure</th>
   <th style="width:15%" >Lundi</th>
   <th style="width:15%" >Mardi</th>
   <th style="width:15%" >Mercredi</th>
@@ -39,28 +39,28 @@
   <td class="Anglais">Anglais</td> 
   <td rowspan="3" bgcolor="white">&nbsp;</td> 
   <td > <table style="width:100%;border:none">
-    <tr style="border:none"> <td id="cell1" width="50%">EMC</td> <td id="cell2" width="50%" bgcolor="white">&nbsp;</td> </tr> 
+    <tr style="border:none"> <td id="cell1" width="50%" class="HG">EMC</td> <td id="cell2" width="50%" bgcolor="white">&nbsp;</td> </tr> 
   </table> </td>
-  <td rowspan="8" bgcolor="white">&nbsp;</td>
+  <td rowspan="9" bgcolor="white">&nbsp;</td>
 </tr>
 <tr> 
   <th scope="row" >11h30</th> 
   <td rowspan="2" bgcolor="white" >&nbsp;</td> 
   <td rowspan="2" bgcolor="white">&nbsp;</td> 
   <td bgcolor="white">&nbsp;</td> 
-  <td >Allemand</td>
+  <td class="Allemand">Allemand</td>
 </tr>
 <tr> 
   <th scope="row" >12h25</th>
-  <td>Allemand</td> 
+  <td class="Allemand">Allemand</td> 
   <td bgcolor="white">&nbsp;</td>
 </tr>
 <tr> 
   <th scope="row" >13h30</th> 
   <td > <table style="width:100%;border:none"> 
-    <tr style="border:none"> <td id="cell1" width="50%" class="Anglais">Anglais</td> <td id="cell2" width="50%">Allemand</td></tr> 
+    <tr style="border:none"> <td id="cell1" width="50%" class="Anglais">Anglais</td> <td id="cell2" width="50%" class="Allemand">Allemand</td></tr> 
   </table> </td>
-  <td rowspan="2">EPS</td>
+  <td rowspan="2" class="EPS">EPS</td>
   <td rowspan="2" class="HG">Histoire-Géo</td>
   <td rowspan="2" class="Maths">Maths</td>
   <td class="PC">Physique-Chimie</td>
@@ -80,15 +80,15 @@
 </tr>
 <tr> 
   <th scope="row">16h30</th> 
-  <td >ES-SVT</td>
+  <td class="ES">ES-SVT</td>
 </tr>
 <tr> 
   <th scope="row">17h25</th>
-  <td>ES-PC</td>
+  <td class="ES">ES-PC</td>
   <td rowspan="2" bgcolor="white">&nbsp;</td>
   <td rowspan="2" bgcolor="white">&nbsp;</td>
 </tr>
-<tr> <th scope="row">18h30</th> </tr>
+<tr> <th scope="row">18h30</th> <td bgcolor="white">&nbsp;</td></tr>
 </table>
 </body>
 <script src="script.js"></script>
